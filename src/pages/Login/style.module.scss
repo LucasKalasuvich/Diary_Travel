@@ -1,0 +1,34 @@
+@import '@styles/base';
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginEmail h4 {
+        // display: flex;
+        // justify-content: start;
+        // align-items: center;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .loginPassword {
+        margin-left: 8px;
+        margin-bottom: 0%; 
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+}

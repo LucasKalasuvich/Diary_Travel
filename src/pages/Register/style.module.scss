@@ -1,0 +1,36 @@
+@import '@styles/base';
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+    .register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .registerEmail h4 {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .registerName  h4{
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .registerPassword {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
